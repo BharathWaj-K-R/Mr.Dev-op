@@ -1,0 +1,15 @@
+# Core dependencies — pinned to exact minor versions for reproducibility.
+# Run: pip install -r requirements.txt
+
+# Groq Python SDK (OpenAI-compatible, tool/function calling support)
+groq==0.29.0
+
+# .env file loading
+python-dotenv==1.0.1
+
+# Test runner (used by tests/ suite)
+pytest==8.3.5
+pytest-mock==3.14.0
+
+# Optional: richer terminal output (not required for core functionality)
+# rich==13.9.4
